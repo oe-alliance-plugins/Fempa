@@ -1,0 +1,18 @@
+{
+  "branch": "main",
+  "depends_recipe": "",
+  "description_control": "",
+  "description_recipe": "Norwegian P4 FEM PAA radio show player.",
+  "history_source_dir": "Fempa",
+  "internal_package_name": "enigma2-plugin-extensions-fempa",
+  "module_dir_name": "Fempa",
+  "output_subdir": "Fempa",
+  "package_name": "enigma2-plugin-extensions-fempa",
+  "plugin_src_rel": "Fempa",
+  "python_package": "Fempa",
+  "rdepends_recipe": "",
+  "replaces": "",
+  "repo_name": "Fempa",
+  "rrecommends": "",
+  "rreplaces": ""
+}
