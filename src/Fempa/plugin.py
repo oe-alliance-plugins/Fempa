@@ -50,7 +50,7 @@ class fempa(Screen):
 				htmldoc = str(response.read())
 				response.close()
 				return htmldoc
-			except:
+			except Exception:
 				print("jebiga gethtml")
 
 		html = gethtml("http://www.p4.no/section.aspx?id=443")
