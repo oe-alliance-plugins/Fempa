@@ -5,22 +5,12 @@
 from __future__ import print_function
 from Plugins.Plugin import PluginDescriptor
 from Screens.Screen import Screen
-from Screens.InfoBar import MoviePlayer as MP_parent
-from Screens.InfoBar import InfoBar
-from Screens.MessageBox import MessageBox
-from Screens.VirtualKeyBoard import VirtualKeyBoard
-from ServiceReference import ServiceReference
-from enigma import eServiceReference, eConsoleAppContainer, ePicLoad, getDesktop, eServiceCenter
+from enigma import eServiceReference, getDesktop
 from Components.MenuList import MenuList
-from Components.Input import Input
-from Screens.InputBox import InputBox
 from Components.ActionMap import ActionMap
 import re
-import time
-import os
 import socket
 
-from six.moves.http_cookiejar import CookieJar
 from six.moves.urllib.request import Request, urlopen
 
 
@@ -106,7 +96,7 @@ class fempa(Screen):
 			htmldoc = str(response.read())
 			response.close()
 			return htmldoc
-		except:
+		except Exception:
 			print("jebiga gethtml")
 
 	def cancel(self):
