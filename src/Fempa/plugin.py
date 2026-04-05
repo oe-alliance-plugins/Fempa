@@ -11,7 +11,7 @@ from Components.ActionMap import ActionMap
 import re
 import socket
 
-from six.moves.urllib.request import Request, urlopen
+from urllib.request import Request, urlopen
 
 
 socket.setdefaulttimeout(300)  # in seconds
