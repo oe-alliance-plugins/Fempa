@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Fempa\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-30 19:14+0200\n"
+"POT-Creation-Date: 2026-05-19 16:38+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Rob van der Does <RobvanderDoes@Gmail.com>\n"
 "Language-Team: openATV\n"
@@ -16,11 +16,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
+#: ../plugin.py:119
 msgid "Norwegian P4 FEM PAA radio show player"
 msgstr "Noorse P4 FEM PAA radiospeler"
 
+#: ../plugin.py:35
 msgid "Simple Search"
 msgstr "Eenvoudig zoeken"
 
+#: ../plugin.py:36
 msgid "VirtualKb Search"
 msgstr "VirtualKb zoeken"

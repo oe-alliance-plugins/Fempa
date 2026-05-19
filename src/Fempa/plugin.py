@@ -3,15 +3,16 @@
 ##################### By:subixonfire  www.satforum.me #####################
 ###########################################################################
 from __future__ import print_function
+import re
+import socket
+from urllib.request import Request, urlopen
 from Plugins.Plugin import PluginDescriptor
 from Screens.Screen import Screen
 from enigma import eServiceReference, getDesktop
 from Components.MenuList import MenuList
 from Components.ActionMap import ActionMap
-import re
-import socket
 
-from urllib.request import Request, urlopen
+from . import _  # for localized messages
 
 
 socket.setdefaulttimeout(300)  # in seconds

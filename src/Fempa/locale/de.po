@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-16 19:01+0430\n"
+"POT-Creation-Date: 2026-05-19 16:38+0200\n"
 "PO-Revision-Date: 2018-10-14 14:06+0200\n"
 "Last-Translator: Manfred Aabye <openmanniland@gmx.de>\n"
 "Language-Team: \n"
@@ -18,11 +18,14 @@ msgstr ""
 "X-Generator: Poedit 2.2\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#: ../plugin.py:119
 msgid "Norwegian P4 FEM PAA radio show player"
 msgstr "Norwegischer P4 FEM PAA Radio Show Player"
 
+#: ../plugin.py:35
 msgid "Simple Search"
 msgstr "Einfache Suche"
 
+#: ../plugin.py:36
 msgid "VirtualKb Search"
 msgstr "VirtualKb Suche"
